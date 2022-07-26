@@ -5,11 +5,11 @@
 
 {% block page_content %}
 <div class="page-header">
-    <h1>Hello, {% if name %}{{ name }}{% else %}Stranger{% endif %}!</h1>
+    <h1 style="color:Tomato;">Hello, {% if name %}{{ name }}{% else %}Stranger{% endif %}!</h1>
     {% if not known %}
     <p>Pleased to meet you!</p>
     {% else %}
-<p style="background-color:DodgerBlue;">Happy to see you again!</p>
+<p style="color:DodgerBlue;">Happy to see you again!</p>
 {% endif %}
 </div>
 
